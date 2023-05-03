@@ -24,7 +24,7 @@ public class VBoxAndHBoxApp extends Application {
         // Création du conteneur principal
         VBox vbox = new VBox();
 
-        // Création du conteneur correspondant à la ligne de contrôle haut dessus du tableau
+        // Création du conteneur correspondant à la ligne de contrôle au dessus du tableau
         HBox topControls = new HBox();
         topControls.setAlignment(Pos.BOTTOM_LEFT );
         Button btnRefresh = new Button("Refresh");
